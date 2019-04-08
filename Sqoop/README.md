@@ -19,4 +19,4 @@ sqoop import \
 --fields-terminated-by "\t"
 </pre>
 
-![ex_screenshot](./capture_1.jpg)
+![ex_screenshot](./capture_1.JPG)
