@@ -59,7 +59,7 @@ sqoop import \
 --table accounts \
 --target-dir /loudacre/accounts/CA \
 --null-non-string '\\N' \
---columns "acct_num, first_name, last_name" \
+--columns "acct_num, first_name, last_name, state" \
 --where "state='CA'" \
 --fields-terminated-by "\t" \
 --as-avrodatafile \
@@ -67,7 +67,7 @@ sqoop import \
 </pre>
 
 <pre>
-avro-tools tojson part-m-00000.avro
+avro-tools tojson hdfs://localhost/loudacre/accounts/CA/part-m-00000.avro
 </pre>
 
 ![ex_screenshot](./capture_3.JPG)
