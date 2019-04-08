@@ -64,7 +64,6 @@ sqoop import \
 --fields-terminated-by "\t" \
 --as-avrodatafile \
 --compression-codec snappy
---toJson
 </pre>
 
 <pre>
