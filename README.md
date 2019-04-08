@@ -1,4 +1,3 @@
 # SKCC_Data_Eng
-testtest    
-rtrtrtrt
-fgfgfgf
+
+Data Engineering 교육 실습
