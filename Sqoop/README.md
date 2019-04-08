@@ -5,7 +5,10 @@ HDFS directory /loudacre/accounts/user_info. Please save the file in text format
 delimiters.
 
 <pre>
-
+sqoop eval \
+--connect jdbc:mysql://localhost/loudacre \
+--username training --password training \
+--query "DESC accounts"
 </pre>
 
 <pre>
