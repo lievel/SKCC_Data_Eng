@@ -2,6 +2,7 @@
 
 ### 1. From the accounts table, import only the primary key, along with the first name, last name to HDFS directory /loudacre/accounts/user_info. Please save the file in text format with tab delimiters.
 
+
 <pre>
 sqoop eval \
 --connect jdbc:mysql://localhost/loudacre \
