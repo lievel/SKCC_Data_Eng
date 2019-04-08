@@ -1,8 +1,6 @@
 ## Sqoop Hands-on
 
-1. From the accounts table, import only the primary key, along with the first name, last name to
-HDFS directory /loudacre/accounts/user_info. Please save the file in text format with tab
-delimiters.
+### 1. From the accounts table, import only the primary key, along with the first name, last name to HDFS directory /loudacre/accounts/user_info. Please save the file in text format with tab delimiters.
 
 <pre>
 sqoop eval \
@@ -24,9 +22,7 @@ sqoop import \
 
 ![ex_screenshot](./capture_1.JPG)
 
-2. This time save the same in parquet format with snappy compression. Save it in
-/loudacre/accounts/user_compressed. Provide.a screenshot of HUE with the new directory
-created.
+### 2. This time save the same in parquet format with snappy compression. Save it in /loudacre/accounts/user_compressed. Provide.a screenshot of HUE with the new directory created.
 
 <pre>
 sqoop import \
@@ -48,9 +44,7 @@ org.apache.hadoop.io.compress.SnappyCodec
 
 
 
-3. Finally save in /loudacre/accounts/CA only clients whose state is from California. Save the file
-in avro format and compressed using snappy. From the terminal, display some of the records
-that you just imported. Take a screenshot and save it as CA_only.
+### 3. Finally save in /loudacre/accounts/CA only clients whose state is from California. Save the file in avro format and compressed using snappy. From the terminal, display some of the records that you just imported. Take a screenshot and save it as CA_only.
 
 <pre>
 sqoop import \
