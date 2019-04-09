@@ -2,6 +2,8 @@
 
 ### 1. Create a new flume configuration file with the following:
 
+conf 파일 : ./new_flume_config.conf
+
 ![ex_screenshot](./capture_1.JPG)
 
 ### 2. Start the agent.
