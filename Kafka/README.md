@@ -16,7 +16,7 @@
 
 ![ex_screenshot](./capture_4.JPG)
 
-### 45. Producing and Consuming Messages(without from-beginning)
+### 5. Producing and Consuming Messages(without from-beginning)
 
 ![ex_screenshot](./capture_5.JPG)
 
