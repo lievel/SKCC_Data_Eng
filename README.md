@@ -2,4 +2,4 @@
 
 Data Engineering 교육 실습
 
-07696 / 플랫폼 Operation그룹 / 
+07696 / 플랫폼 Operation그룹 / 송민영
