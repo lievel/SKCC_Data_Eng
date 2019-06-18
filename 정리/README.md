@@ -72,7 +72,15 @@ agent1.sinks.sink1.hdfs.fileType = DataStream
 agent1.sinks.sink1.hdfs.fileSuffix = .txt
 agent1.sinks.sink1.hdfs.codeC = snappy
 agent1.sinks.sink1.channel = ch1
-</pre>>
+</pre>
+
+<pre>
+flume-ng agent \
+> --conf /etc/flume-ng/conf \
+> --conf-file $DEVSH/exercises/flume/new_flume_config.conf \
+> --name agent1 -Dflume.root.logger=INFO,console
+</pre>
+
 
 
 
